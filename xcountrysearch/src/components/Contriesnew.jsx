@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 const Card = ({ name, flag }) => {
   return (
     <div
+    className="countryCard"
       style={{
         display: "flex",
         flexDirection: "column",
